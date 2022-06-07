@@ -38,3 +38,10 @@ export function userdel(id) {
     params: { id }
   })
 }
+export function useradd(data) {
+  return request({
+    url: 'admin/user/add',
+    method: 'post',
+    data
+  })
+}

@@ -9,7 +9,7 @@ module.exports = {
   showSettings: false,
   /**
    * @type {boolean} true | false
-   * @description Whether need tagsView
+   * @description Whether need tagsView  tabs-view 不显示
    */
   tagsView: false,
 
@@ -23,7 +23,7 @@ module.exports = {
    * @type {boolean} true | false
    * @description Whether show the logo in sidebar
    */
-  sidebarLogo: false,
+  sidebarLogo: true,
 
   /**
    * @type {string | array} 'production' | ['production', 'development']

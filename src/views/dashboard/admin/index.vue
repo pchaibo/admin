@@ -37,6 +37,9 @@
         <box-card />
       </el-col>
     </el-row>
+    <div>
+      <span> © Copyright 2022 55优淘_源码系统</span>
+    </div>
   </div>
 </template>
 

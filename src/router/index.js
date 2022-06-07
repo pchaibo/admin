@@ -146,7 +146,7 @@ export const asyncRoutes = [
         path: 'index',
         component: () => import('@/views/user/index'),
         name: 'userlist',
-        meta: { title: '用户' }
+        meta: { title: '管理员' }
       }
     ]
   },
