@@ -1,81 +1,17 @@
 
-## Features
-
+## 后台显示
+后台地址:
+git clone https://github.com/pchaibo/shop.git
 ```
 - Login / Logout
-
-- Permission Authentication
-  - Page permission
-  - Directive permission
-  - Permission configuration page
-  - Two-step login
-
-- Multi-environment build
-  - Develop (dev)
-  - sit
-  - Stage Test (stage)
-  - Production (prod)
-
-- Global Features
-  - I18n
-  - Multiple dynamic themes
-  - Dynamic sidebar (supports multi-level routing)
-  - Dynamic breadcrumb
-  - Tags-view (Tab page Support right-click operation)
-  - Svg Sprite
-  - Mock data
-  - Screenfull
-  - Responsive Sidebar
-
-- Editor
-  - Rich Text Editor
-  - Markdown Editor
-  - JSON Editor
-
-- Excel
-  - Export Excel
-  - Upload Excel
-  - Visualization Excel
-  - Export zip
-
-- Table
-  - Dynamic Table
-  - Drag And Drop Table
-  - Inline Edit Table
-
-- Error Page
-  - 401
-  - 404
-
-- Components
-  - Avatar Upload
-  - Back To Top
-  - Drag Dialog
-  - Drag Select
-  - Drag Kanban
-  - Drag List
-  - SplitPane
-  - Dropzone
-  - Sticky
-  - CountTo
-
-- Advanced Example
-- Error Log
-- Dashboard
-- Guide Page
-- ECharts
-- Clipboard
-- Markdown to html
-```
-
 ## Getting started
 
 ```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+# 后台显示
+git clone https://github.com/pchaibo/admin.git
 
 # enter the project directory
-cd vue-element-admin
+cd admin
 
 # install dependency
 npm install
@@ -112,8 +48,3 @@ npm run lint
 npm run lint -- --fix
 ```
 
-技术支持  vue-element-admin
-## Donate
-
-
-Copyright (c) 2017-present PanJiaChen

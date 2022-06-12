@@ -1,5 +1,5 @@
 <template>
-  <el-button> test</el-button>
+  <div>规则</div>
 </template>
 
 <script>

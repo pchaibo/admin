@@ -4,7 +4,7 @@
       <el-input v-model="seusername" placeholder="用户名" style="width: 200px;" class="filter-item" />
       <el-button class="filter-item" type="primary" icon="el-icon-search">搜索</el-button>
       <el-button class="filter-item" style="margin-left: 10px;" type="primary" icon="el-icon-edit" @click="outerVisible = true">
-        增加
+        增加权限
       </el-button>
     </div>
     <el-table v-loading="listLoading" :data="list" element-loading-text="拼命加载中" border fit highlight-current-row>
@@ -140,7 +140,6 @@ export default {
       }
       this.edituser = false
       this.outerVisible = false
-      if (s === 1) { setTimeout(() => { location.reload() }, 3000) }
     },
     setadd() {
       console.log(this.form)

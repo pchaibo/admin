@@ -138,7 +138,7 @@ export const asyncRoutes = [
     redirect: '/user/index', // redirect
     alwaysShow: true,
     name: 'user',
-    meta: { title: '用户组', icon: 'user',
+    meta: { title: '权限管理', icon: 'peoples',
       roles: ['admin']
     },
     children: [
@@ -146,7 +146,19 @@ export const asyncRoutes = [
         path: 'index',
         component: () => import('@/views/user/index'),
         name: 'userlist',
-        meta: { title: '管理员' }
+        meta: { title: '管理人员' }
+      },
+      {
+        path: 'group',
+        component: () => import('@/views/user/group'),
+        name: 'usergroup',
+        meta: { title: '角色权限' }
+      },
+      {
+        path: 'role',
+        component: () => import('@/views/user/role'),
+        name: 'userrole',
+        meta: { title: '菜单规则' }
       }
     ]
   },
