@@ -1,4 +1,7 @@
-
+<p align="center">
+  <img width="480" src="https://github.com/pchaibo/shop/public/imges/top.png">
+  <img width="480" src="https://github.com/pchaibo/shop/public/imges/user.png">
+</p>
 ## 后台显示
 后台地址:
 git clone https://github.com/pchaibo/shop.git
@@ -10,41 +13,52 @@ git clone https://github.com/pchaibo/shop.git
 # 后台显示
 git clone https://github.com/pchaibo/admin.git
 
-# enter the project directory
-cd admin
+## 开发
 
-# install dependency
+```bash
+# 克隆项目
+git clone https://github.com/PanJiaChen/vue-element-admin.git
+
+# 进入项目目录
+cd vue-element-admin
+
+# 安装依赖
 npm install
 
-# develop
+# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
+# 启动服务
 npm run dev
 ```
 
-This will automatically open http://localhost:9000
+浏览器访问 http://localhost:9000
 
-## Build
+## 发布
 
 ```bash
-# build for test environment
+# 构建测试环境
 npm run build:stage
 
-# build for production environment
+# 构建生产环境
 npm run build:prod
 ```
 
-## Advanced
+## 其它
 
 ```bash
-# preview the release environment effect
+# 预览发布环境效果
 npm run preview
 
-# preview the release environment effect + static resource analysis
+# 预览发布环境效果 + 静态资源分析
 npm run preview -- --report
 
-# code format check
+# 代码格式检查
 npm run lint
 
-# code format check and auto fix
+# 代码格式检查并自动修复
 npm run lint -- --fix
 ```
+## Donate
 
+Copyright (c) 2022
