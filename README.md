@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="480" src="https://github.com/pchaibo/admin/blob/master/public/imges/top.png">
-  <img width="480" src="https://github.com/pchaibo/shop/public/imges/user.png">
+  <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/top.png">
+  <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/user.png">
 </p>
 ## 后台显示
 后台地址:
