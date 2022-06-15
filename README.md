@@ -3,24 +3,22 @@
   <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/user.png">
    <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/add.png">
 </p>
-## 后台显示
+## 后台
 后台地址:
-
 git clone https://github.com/pchaibo/shop.git
-
 ```
 - Login / Logout
 ## Getting started
 
 ```bash
-# 后台显示
+# vue显示
 git clone https://github.com/pchaibo/admin.git
 
 ## 开发
 
 ```bash
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/pchaibo/admin.git
 
 # 进入项目目录
 cd vue-element-admin
