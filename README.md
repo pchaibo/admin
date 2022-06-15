@@ -20,7 +20,7 @@ git clone https://github.com/pchaibo/admin.git
 git clone https://github.com/pchaibo/admin.git
 
 # 进入项目目录
-cd vue-element-admin
+cd admin
 
 # 安装依赖
 npm install
