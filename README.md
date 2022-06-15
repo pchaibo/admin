@@ -3,14 +3,13 @@
   <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/user.png">
    <img width="800" src="https://github.com/pchaibo/admin/blob/master/public/imges/add.png">
 </p>
-## 后台
-后台地址:
-git clone https://github.com/pchaibo/shop.git
-```
-- Login / Logout
-## Getting started
 
-```bash
+## 后台
+
+后台地址:
+
+git clone https://github.com/pchaibo/shop.git
+
 # vue显示
 git clone https://github.com/pchaibo/admin.git
 
